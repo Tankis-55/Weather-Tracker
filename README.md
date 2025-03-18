@@ -23,6 +23,12 @@ cd weather_tracker
 
 API_KEY=your_openweathermap_api_key
 
+Automation (scheduled launch via cron):
+open the editor crontab -e
+
+running every 3 hours (in 00:00, 03:00, 06:00 and so on.)
+paste 0 */3 * * * /path to python in venv  /path to the script /weather_analysis/weather_scraper.py
+
 Usage
 
 Run the script manually:
