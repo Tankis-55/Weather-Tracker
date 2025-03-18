@@ -115,4 +115,4 @@ try:
     print("Data uploaded to Google Sheets")
 
 except Exception as e:
-    print(f" Mistake during uploading to Google Sheets: {e}")
+    print(f" Misstake during uploading to Google Sheets: {e}")
